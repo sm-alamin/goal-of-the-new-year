@@ -1,4 +1,7 @@
-/* First Assignment */
+/* First Assignment:
+Course Instructor: Jhankar Mahbub,
+Prepared by: Mohammad Al-Amin
+*/
 
 /*** 
 
@@ -7,17 +10,62 @@
 ====================================================================
 
  ***/
-
-
-
-
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans&family=Work+Sans:wght@700&display=swap');
 
  /*** 
 
 ====================================================================
-
-  Main Header style
-
+  Common Part
 ====================================================================
 
 ***/
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    background-color:#FFFFFF;
+    padding:20px 25px;
+    color: #005FAC;
+    font-weight: 600;
+    border-radius: 5px;
+    border:0;
+}
+
+ /*** 
+
+====================================================================
+  Header style
+====================================================================
+
+***/
+.header{
+    background-image: url("../images/banner/banner3.png");
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    
+}
+.header-left-content{
+    width: 500px;
+    height: 50vh;
+}
+.header-right-content{
+    width: 500px;
+    height: 50vh;
+}
+.header-right-content h2{
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.header-right-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 24px 0;
+}
