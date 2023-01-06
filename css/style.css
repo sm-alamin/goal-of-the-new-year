@@ -32,6 +32,16 @@ Prepared by: Mohammad Al-Amin
     border-radius: 5px;
     border:0;
 }
+.title{
+    font-size: 40px;
+    color: #151414;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 24px 0 20px;
+}
 
  /*** 
 
@@ -68,4 +78,34 @@ Prepared by: Mohammad Al-Amin
     font-size: 16px;
     color: #FFFFFF;
     margin: 24px 0;
+}
+ /*** 
+
+====================================================================
+  Main Part: My Previous Year Failure Section Style
+====================================================================
+
+***/
+.previous-failure{
+    height: 724px;
+    width: 1072px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 87px;
+    margin: 0 auto;
+}
+.previous-failure-photo{
+    width:35%;
+}
+.previous-failure-photo img{
+    height: 100%;
+    width: 100%;
+}
+.previous-failure-details{
+ width: 35%;
+}
+.check-mark{
+    color: #6DE6B4;
+
 }
