@@ -72,6 +72,20 @@ Prepared by: Mohammad Al-Amin
 ====================================================================
 
 ***/
+.new-year-resulations{
+   position: absolute;
+   top: 43%;
+   left: 40%;
+}
+.new-year-resulations ul{
+    list-style-type: circle;
+}
+.new-year-resulations ul li{
+    padding-top:20px;
+}
+.heading-color{
+    color:#005FAC;
+}
 .header-container{
     display: flex;
     justify-content: space-around;
